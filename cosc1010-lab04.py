@@ -1,8 +1,8 @@
-# Your Name Here
+# Emma Leyba
 # UWYO COSC 1010
-# Submission Date
+# September 30, 2024
 # Lab 03 
-# Lab Section: 
+# Lab Section: 14
 # Sources, people worked with, help given to: 
 # your
 # comments
@@ -101,5 +101,17 @@ min_temps = [
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
+total_min_temp=0 
+for value in range (len(min_temps)):
+    total_min_temp +=min_temps[value]
+print(total_min_temp/len(min_temps))
 
+total_max_temp=0 
+for value in range (len(max_temps)):
+    total_max_temp +=max_temps[value]
+print(total_max_temp/len(max_temps))
 
+min_temps
+print (min(min_temps))
+
+print (max(max_temps))
